@@ -1,4 +1,4 @@
-# Distributed-V-JEPA: Enabling Intelligent Distributed Sensing through Self-Supervised Cross-Device Knowledge Sharing
+# Distributed V-JEPA: Enabling Intelligent Distributed Sensing through Self-Supervised Cross-Device Knowledge Sharing
 
 ![Demo Reconstruction](assets/reconstruction.gif)
 
