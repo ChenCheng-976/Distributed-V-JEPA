@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Playback</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f9;
+    }
+    .video-container {
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+    }
+    video {
+      width: 80%; /* Adjust width as needed */
+      max-width: 800px;
+      margin: 10px 0;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simultaneous Video Playback</h1>
+  <div class="video-container">
+    <video controls>
+      <source src="videos/display_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="video-container">
+    <video controls>
+      <source src="videos/target_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="video-container">
+    <video controls>
+      <source src="videos/reconstructed_target_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</body>
+</html>
